@@ -16,5 +16,10 @@ import com.example.activity3_composablelayout2.ui.theme.Activity3ComposableLayou
 @Composable
 
 fun ActivitasPetama(modifier: Modifier){
+    Column(modifier = Modifier.padding(top=100.dp)
+    fillMaxSize(),
+        horizontalAligment = Aligment.CenterHorizontally
+    ){
 
+    }
 }
